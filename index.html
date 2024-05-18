@@ -59,21 +59,58 @@
             text-align: center;
         }
 
-        .content2, .content3, .content4, .content5 {
-            margin: 2em auto;
-            max-width: 800px;
+        .content2 {
+            float: left;
+            margin: 2em 1em;
+            max-width: 300px;
             background-color: rgb(255, 252, 252);
             padding: 2em;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
+        }
+        
+        .content3 {
+            float: right;
+            margin: 2em 1em;
+            max-width: 300px;
+            background-color: rgb(255, 252, 252);
+            padding: 2em;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
-        .content2 h2, .content3 h2, .content4 h2, .content5 h2 {
+        
+        .content4 {
+            float: left;
+            margin: 2em 1em;
+            max-width: 300px;
+            background-color: rgb(255, 252, 252);
+            padding: 2em;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .content5 {
+            float: right;
+            margin: 2em 1em;
+            max-width: 300px;
+            background-color: rgb(255, 255, 255);
+            padding: 2em;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .content2 h2,
+        .content3 h2,
+        .content4 h2,
+        .content5 h2 {
             margin-top: 0;
         }
 
-        .content2 p, .content3 p, .content4 p, .content5 p {
+        .content2 p,
+        .content3 p,
+        .content4 p,
+        .content5 p {
             margin-bottom: 1em;
         }
 
@@ -103,35 +140,6 @@
             padding: 1em 0;
             position: relative;
             width: 100%;
-        }
-
-        /* Media Queries */
-        @media (max-width: 768px) {
-            header h1 {
-                font-size: 2em;
-            }
-
-            .content1, .content2, .content3, .content4, .content5 {
-                padding: 1em;
-            }
-
-            .links {
-                flex-direction: column;
-            }
-        }
-
-        @media (max-width: 480px) {
-            header h1 {
-                font-size: 1.5em;
-            }
-
-            .content1, .content2, .content3, .content4, .content5 {
-                padding: 0.5em;
-            }
-
-            .links a {
-                padding: 0.5em 1em;
-            }
         }
     </style>
 </head>
@@ -173,23 +181,24 @@
             <h2>Activités de la section CIEL</h2>
             <p>Les activités pouvant être réalisées au long de l'année sont :</p>
             <ul>
-                <li><strong>Informatique</strong> : Introduction au Python, Javascript, HTML, CSS et gestion d'ordinateur / Mr. Nicolau</li>
-                <li><strong>Électronique</strong> : TD et activités sur : NE555, oscilloscope, Arduino / Mr. Grange</li>
-                <li><strong>Réseaux</strong> : Adressage IP, Introduction à Virtual-Box, création et gestion de réseaux / Mr. Deltell</li>
+                <li><strong>Informatique</strong> : Introduction au Python , Javascript , Html , CSS et gestion d'ordinateur / Mr.Nicolau</li>
+                <li><strong>Électronique</strong> : TD et activiter sur : NE555 , oscilloscope , Arduino / Mr.grange</li>
+                <li><strong>Réseaux</strong> : Adressage IP , Introduction a Virtual-Box , création et gestion de résaux /Mr.deltell</li>  
             </ul>
-            <p>Tous sont très intéressants et servent tout au long du métier d'informaticien.</p>
+            <p>Tous sont tres intérésant et serve tout au long du metier d'informaticien.</p>
         </div>
         <div class="content5">
             <h2>Objectifs de la section CIEL</h2>
-            <p>Le Bac Pro Cyber Sécurité (anciennement appelé Bac Pro Systèmes Numériques):</p>
+            <p>Le Bac Pro Cyber Sécurité (anciennement appelé Bac Pro Systèmes Numériques:</p>
             <ul>
                 <li><strong>Acquisition de Compétences Techniques en Cybersécurité</strong></li>
-                <li><strong>Connaissance des Réseaux et des Systèmes Informatiques</strong></li>
-                <li><strong>Mise en Pratique et Projets</strong></li>
-                <li><strong>Stages en Entreprise de 3 semaines</strong></li>
-                <li><strong>Sensibilisation et Éducation à la Sécurité électrique</strong></li>
+                <li><strong>Connaissance des Réseaux et des Systèmes Informatiques </strong></li>
+                <li><strong>Mise en Pratique et Projets</strong></li>  
+                <li><strong>Stages en Entreprise de 3 semaines</strong></li> 
+                <li><strong>Sensibilisation et Éducation à la Sécurité électrique</strong></li> 
                 <li><strong>Préparation à la Poursuite d’Études ou à l’Insertion Professionnelle</strong></li>
             </ul>
+            
         </div>
     </main>
     <footer>
